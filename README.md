@@ -1,8 +1,8 @@
 # test
 video
 clc,clear
-file_path1 =  'D:\data0\';%
-file_path2 =  'D:\data1\';%
+file_path1 =  '.\0\';%
+file_path2 =  '.\1\';%
 img_path_list = dir(strcat(file_path1,'*.png'));%
 img_path_list = sort_nat(img_path_list);%
 img_num = length(img_path_list);%
